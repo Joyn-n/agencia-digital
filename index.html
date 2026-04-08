@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>AgenciaFege Marketing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>AgenciaFege Marketing</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- IMÁGENES DE PORTADA -->
+<section class="hero-imagenes">
+    <img src="imagen1.img" alt="Proyecto 1">
+    <img src="imagen2.img" alt="Proyecto 2">
+    <img src="imagen3.img" alt="Proyecto 3">
+</section>
+
+    <main>
+
+        <section id="inicio">
+            <h2>Bienvenido a nuestra agencia</h2>
+            <p>Diseñamos soluciones digitales modernas para empresas.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="card">
+                <h3>Diseño Web</h3>
+                <p>Páginas modernas y responsivas.</p>
+            </div>
+            <div class="card">
+                <h3>Marketing Digital</h3>
+                <p>Estrategias para aumentar tu alcance.</p>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DINÁMICA -->
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+
+            <form id="formulario">
+                <label>Nombre:</label>
+                <input type="text" id="nombre">
+
+                <label>Email:</label>
+                <input type="email" id="email">
+
+                <label>Mensaje:</label>
+                <textarea id="mensaje"></textarea>
+
+                <button type="submit">Enviar</button>
+                <p id="error"></p>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 AgenciaFege Marketing</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
